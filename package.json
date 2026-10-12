@@ -1,0 +1,13 @@
+{
+  "name": "franktorio-xsouls-lab-javascript",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "main": "app.js",
+  "scripts": {
+    "dev:bot": "npm run dev -w apps/bot",
+    "dev:api": "npm run dev -w apps/api",
+    "dev:web": "npm run dev -w apps/web"
+  }
+}
